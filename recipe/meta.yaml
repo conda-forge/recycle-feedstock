@@ -22,6 +22,7 @@ requirements:
     - cmake
     - make  # [unix]
     - {{ compiler('cxx') }}
+    - {{ stdlib('c') }}
 
 test:
   commands:
